@@ -3,7 +3,7 @@
 Summary: A pipeline manipulation library
 Name: libpipeline
 Version: 1.2.3
-Release: 1%{?dist}
+Release: 3%{?dist}
 License: GPLv3+
 Group: Development/Libraries
 URL: http://libpipeline.nongnu.org/
@@ -60,6 +60,12 @@ rm $RPM_BUILD_ROOT/%{_libdir}/libpipeline.la
 %{_mandir}/man3/*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.2.3-3
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.2.3-2
+- Mass rebuild 2013-12-27
+
 * Wed Apr 24 2013 Peter Schiffer <pschiffe@redhat.com> - 1.2.3-1
 - resolves: #956003
   updated to 1.2.3
